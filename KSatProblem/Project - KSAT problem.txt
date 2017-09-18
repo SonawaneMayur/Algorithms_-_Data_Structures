@@ -1,0 +1,7 @@
+The objective of the final project is to have you do hands on application of backtrack search as it applies to the Satisfiability problem (k-SAT). The problem and techniques are fundamental to all future on Artificial Intelligence.
+
+
+Consider the following function f of n boolean variables: v_1, ...., v_n. A clause is made up of the disjunction k literals where each literal is v_i or its negation (~v_i) meaning not v_i. For example, if v_i is assigned a true value then its negation ~v_ is false. k-Sat problem is defined as a boolean formula that is the conjunction of t clauses where each clause is has k literals. Your job is do the following:
+
+1) Randomly generate a boolean function f, that is a function of v boolean variables, t clauses, and each clause is made of k literal that are constructed from the v variables.
+2) Apply backtrack search to find solution(s) to the function f(v_1, v_2, .....,v_n) = true; that is an assignment to the variables of zeros and ones that make t clauses evaluate to true.
