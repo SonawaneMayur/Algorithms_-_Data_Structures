@@ -7,6 +7,13 @@
 #
 # Because nums[0] + nums[1] = 2 + 7 = 9,
 # return [0, 1].
+import random
+edt = [ 3,4,45,5,5,5]
+
+print(random.sample(edt, 4))
+
+name = 2
+print("{name} = ",f'{name}')
 
 def twoSum(nums, sum):
     dict = []
